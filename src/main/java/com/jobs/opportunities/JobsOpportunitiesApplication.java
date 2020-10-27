@@ -1,8 +1,8 @@
-package com.jobs.com.jobs.opportunities;
+package com.jobs.opportunities;
 
-import com.jobs.com.jobs.opportunities.dto.JobOpportunityRequest;
-import com.jobs.com.jobs.opportunities.dto.JsonHolder;
-import com.jobs.com.jobs.opportunities.dto.SkillRole;
+import com.jobs.opportunities.dto.JobOpportunityRequest;
+import com.jobs.opportunities.dto.JsonHolder;
+import com.jobs.opportunities.dto.SkillRole;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
