@@ -5,12 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
-public class SkillRole {
+public class JsonHolderResponse {
     @Getter
     @Setter
-    private String text;
-
-    @Getter
-    @Setter
-    private String experience;
+    private String content;
 }

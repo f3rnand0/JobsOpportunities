@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+</head>
+<body>
+<p style="text-align: center;"><strong>&nbsp;Job Opportunities search</strong></p>
+<form action="#" method="post" th:action="@{/main}" th:object="${jobOpportunitySearch}">
+    <p>Search:<input th:field="*{searchTerm}" type="text"/></p>
+    <p>Results size:<input th:field="*{size}" type="text"/></p>
+    <p>Remote:<input th:field="*{remote}" type="text"/></p>
+    <p>Compensation range:</p>
+    <p>Mininum amount:<input th:field="*{minAmmount}" type="text"/></p>
+    <p>Maximum amount:<input th:field="*{maxAmmount}" type="text"/></p>
+    <p><input type="submit" value="Search"/></p>
+</form>
+</body>
+</html>

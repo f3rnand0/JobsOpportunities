@@ -5,12 +5,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 @AllArgsConstructor
-public class SkillRole {
+public class Remote {
     @Getter
     @Setter
-    private String text;
-
-    @Getter
-    @Setter
-    private String experience;
+    private Boolean term;
 }
